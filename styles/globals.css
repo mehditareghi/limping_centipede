@@ -6,3 +6,6 @@ html,
 body {
   font-family: Yekan Bakh, 'sans-serif';
 }
+#__next {
+  height: 100%;
+}
