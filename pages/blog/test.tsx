@@ -1,11 +1,12 @@
 import { NextPage } from 'next';
 const Page: NextPage = () => {
 
-return (
-    <div >
-         سلاااااااام
-    </div>
-)};
+    return (
+        <div>
+            تست فونت یکان بخ
+        </div>
+    )
+};
 
 export default Page;
 export const getStaticProps = () => {
