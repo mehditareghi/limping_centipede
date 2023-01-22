@@ -14,7 +14,7 @@ export default function App({ Component, pageProps }: AppProps) {
       <Component {...pageProps} />
     </main>
     <footer className='bg-red-500'>
-      <p>footer</p>
+      <p className='font-thin text-center'>تمامی حقوق این وب‌سایت، متعلق به «هزارپای لنگ» می‌باشد.</p>
     </footer>
   </div>
 }
