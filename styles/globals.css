@@ -9,3 +9,23 @@ body {
 #__next {
   height: 100%;
 }
+
+h1 {
+  font-weight: bold;
+  margin-top: 1rem;
+  margin-bottom: 0.75rem;
+}
+
+p {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  text-align: justify;
+}
+
+.container {
+  --max-width: 1110px;
+  --padding: 1rem;
+
+  width: min(var(--max-width), 100% - (var(--padding) * 2));
+  margin-inline: auto;
+}
